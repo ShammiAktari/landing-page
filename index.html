@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asian Yogurt</title>
+    <style>
+      body {
+        background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+      }
+      h1 {
+        text-align: center;
+        color: rgb(7, 51, 33);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+      }
+      h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 70%;
+        border-radius: 15px;
+      }
+      .yogurt {
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 40px;
+        border: 1px solid goldenrod;
+        border-radius: 30px;
+        font-size: 15px;
+        box-shadow: 5px 3px 5px 3px rgb(156, 155, 155);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+        color: rgb(3, 39, 3);
+        background: goldenrod;
+      }
+      .shammi {
+        text-align: center;
+        color: rgb(203, 250, 133);
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px 60px;
+        text-decoration: none;
+        transition: All 200ms ease-in-out;
+      }
+      .container:hover {
+        background-color: #f1ecc3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><b>I Love Asian Yogurt</b></h1>
+      <h2>Borhani (Spicy Yogurt Drink)</h2>
+      <br />
+      <hr />
+      <br />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/949/original/bangladeshi-food-16-1024x683.jpg?1626308054"
+        alt="borhani"
+      />
+      <br />
+
+      <hr />
+      <p class="yogurt">
+        If you attend a wedding in Bangladesh, there is a high chance you will
+        be served borhani with your meal. It is a traditional drink, made
+        popular by locals in Dhaka and Chittagong. Borhani is made with yogurt,
+        spices, a little sugar, coriander, and mint leaves. These ingredients
+        come together to create a uniquely sweet, spicy, and tangy tasting
+        beverage, unique to Bangladeshi cuisine. Due to the inclusion of
+        multiple herbs and spices, borhani helps to digest food faster. Hence,
+        it is a common choice of drink following a heavy meal of pulao or
+        biriyani. Borhani is readily available in all restaurants that serve
+        traditional Bangladeshi food, so don’t forget to give it a try!
+      </p>
+      <br />
+
+      <a
+        href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_oP_2xd7xAhVRLBoKHY93AtoQwqsBegQIJRAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJtUMDQGrO5o&usg=AOvVaw2HXHGIiRZ8ge8R2gV6BxK8"
+        target="_blank"
+        >&#x1F33F; Borhani (Spicy Yogurt)</a
+      >
+      <br />
+      <br />
+      ugh Bogra always stop to take a few servings home for their loved ones.
+      Mis
+      <h2>Mishti Doi (Sweet Yogurt)</h2>
+      <br />
+      <hr />
+      <br />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/950/original/bangladeshi-food-15b-1024x683.jpg?1626308148"
+        alt="misty doi"
+      />
+      <br />
+      <hr />
+      <p class="yogurt">
+        Yogurt is found in every district of Bangladesh, but mishti doi,
+        originating from Bogra, is undoubtedly one of the most flavorsome types.
+        People traveling throhti doi is prepared as you would most fermented
+        yogurts. It is made by adding sugar and molasses to boiling milk, then
+        leaving it to ferment overnight. Once fermented, mishti doi has a thick
+        consistency, with a sweet, unique taste. It has been enjoyed throughout
+        Bangladesh for nearly two centuries, and it is very much a must-try food
+        when visiting.
+      </p>
+      <br />
+      <a href="https://www.youtube.com/watch?v=28NbzMBJgm8" target="_blank"
+        >Misty Doi (Sweet Yogurt) &#x1F342;</a
+      >
+      <br />
+      <br />
+      <button>&#x1F343; Happy Yogurt</button>
+      <br />
+      <p class="shammi">
+        Coded by
+        <a
+          href="file:///C:/Users/User/Desktop/HTML/Its%20ME.html"
+          target="_blank"
+          >Shammi Aktari</a
+        >
+      </p>
+    </div>
+  </body>
+  <script>
+    function contactUs() {
+      let interest = prompt(
+        "Are you interested to know about more traditional yogurt and be happy?"
+      );
+      let name = prompt("What is your name?");
+      let email = prompt("Your email address plz");
+      if (interest === "yes") {
+        alert(
+          "Wow!!! " +
+            name +
+            " great. We will be very soon with more Happy Yogurts."
+        );
+      } else {
+        alert("Thank you!!! You are beautiful.");
+      }
+    }
+    let contactButton = document.querySelector("button");
+    contactButton.addEventListener("click", contactUs);
+  </script>
+</html>
